@@ -24,19 +24,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div className="container mx-auto max-w-4xl	px-4">
+    <div className="container mx-auto max-w-5xl	px-4 md:px-16">
       <Header />
       <div className="max-w-xl">
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        <footer></footer>
       </div>
     </div>
   )
