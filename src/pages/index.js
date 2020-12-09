@@ -6,7 +6,7 @@ import bannerImg from "../images/banner.png"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="Delphine Gimbert / Diseño Gráfico" />
     <div>
       <div>
         <ul className="pb-8">
